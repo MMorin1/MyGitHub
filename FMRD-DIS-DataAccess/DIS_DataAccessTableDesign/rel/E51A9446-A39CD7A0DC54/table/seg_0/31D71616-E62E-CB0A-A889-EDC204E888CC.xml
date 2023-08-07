@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31D71616-E62E-CB0A-A889-EDC204E888CC" name="AFFILIATIONS">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:26:33 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AFFILIATION_ID" id="517D252C-4928-C79C-12E9-72AAEB00397A">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AFFILIATION_NAME" id="FF279DC8-81BD-FB36-6985-671B0EE03DB3">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="55366261-AFA8-D05F-F0A6-8F5C691BFCC9">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="2D950E2E-4774-6D25-9C3A-64F89EB4DB46">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="2F40E4A4-3D0D-612D-C46C-A9A04010401E">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE" id="F010F1CA-AD26-4105-6C56-E0A27B90AF83">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:29:28 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EB9A613-1FCA-0EB2-9E59-EA2971C79A95" name="AFFILIATIONS_PK">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:50 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="517D252C-4928-C79C-12E9-72AAEB00397A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70D7CEBF-5194-508B-B739-F70B4276B534" name="USER_ROLE_AFFILIATIONS">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:44:51 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="481FB659-1DDB-D87F-5759-5335DFD67B75">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:24 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USER_ROLE_AFFILIATIONS_USER_ID</notNullConstraintName>
+</Column>
+<Column name="AFFILIATION_ID" id="70501EAB-68AA-33C6-BA00-0162DC435FBF">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:24 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USER_ROLE_AFFILIATIONS_AFFILIATION_ID</notNullConstraintName>
+</Column>
+<Column name="ROLE_ID" id="E0283C95-57AD-9355-7F86-5F2C402FAF46">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:24 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USER_ROLE_AFFILIATIONS_ROLE_ID</notNullConstraintName>
+</Column>
+<Column name="START_DATE" id="CAD9ACB5-B766-7593-C4CC-96A90A6161ED">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:24 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_USER_ROLE_AFFILIATIONS_START_DATE</notNullConstraintName>
+</Column>
+<Column name="END_DATE" id="D1AE3BC0-EE4D-DBEF-3BDD-0AB01EBCE5CC">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:24 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDCAFEFD-121A-8E6B-1D17-C91FF92A38CD" name="USER_ROLE_AFFILIATIONS_PK">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:47:18 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="481FB659-1DDB-D87F-5759-5335DFD67B75"/>
+<colUsage columnID="70501EAB-68AA-33C6-BA00-0162DC435FBF"/>
+<colUsage columnID="E0283C95-57AD-9355-7F86-5F2C402FAF46"/>
+<colUsage columnID="CAD9ACB5-B766-7593-C4CC-96A90A6161ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

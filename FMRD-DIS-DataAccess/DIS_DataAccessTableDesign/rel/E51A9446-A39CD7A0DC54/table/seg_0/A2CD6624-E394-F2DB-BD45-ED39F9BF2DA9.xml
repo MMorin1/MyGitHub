@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2CD6624-E394-F2DB-BD45-ED39F9BF2DA9" name="USERS">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:18:43 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="DC32CAFB-6323-EDFB-5967-6F3DDC5C2D9F">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="BF2B7896-B92C-D22A-8BE2-2615F04C5718">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="9B4453E8-A2B3-B4E1-0085-C9A139D7048D">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STREET_ADDRESS" id="2655FC04-09BF-22BB-B679-8BDE8CAA8D63">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="819FCCC9-5351-61FF-7038-AF435C1A771A">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="89C90978-4921-0BF2-FF84-8F49ABBE9197">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP_CODE" id="26B5571C-4F2A-2FC2-4410-477B1A74AEE9">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="52CAD27C-8AEF-3C81-1DD8-0D319A1A24C3">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="20527097-8108-1044-4CE6-69E0C667E3CF">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="45811F3D-028F-2A2B-B020-2E6302606A71">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="43F9A66A-B052-A368-806A-43387B940B43">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:25:30 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2D77D05-6518-B71C-614C-BBB3E2266AF5" name="USERS_PK">
+<createdBy>mike.morin</createdBy>
+<createdTime>2023-08-07 14:46:43 UTC</createdTime>
+<ownerDesignName>DIS_DataAccessTableDesign</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC32CAFB-6323-EDFB-5967-6F3DDC5C2D9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
